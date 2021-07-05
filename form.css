@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.block {
+	width: 100%;
+	height: 1700px;
+	background: #e8e8e8  url('fon.png') 50px 0/1190px 1060px no-repeat;
+
+	
+}
+
+.travel {
+	font-family: Arial;
+	font-size: 14px;
+	font-color: grey;
+	text-align: center;
+	padding:168px 0 27px 0;
+}
+
+.donec {
+	font-family: Times New Roman;
+	font-size: 36px;
+	color: #273d46;
+	font-weight: 500;
+	text-align: center;
+	padding:0 0 77px 0;
+}
+
+.pic {
+	width: 842px;
+	height: 560px;
+	border: 10px solid white;
+	box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+}
+
+.picc {
+	text-align: center;
+} 
+
+.text {
+	margin-top: 96px;
+	margin-left: 400px;
+	width: 737px;
+	height: 453px;
+
+}
+
+.t1 {
+	font-family: Times New Roman;
+	font-size: 24px;
+	line-height: 40px;
+	color: #273d46;
+	opacity: 0.8;
+
+}
+li {
+background: url('icon.png')  0 7px  no-repeat;
+font-size: 20px;
+line-height: 36px;
+padding-left:  35px;
+font-weight: 500;
+font-family: Arial;
+color: #273d46;
+}
+
+.l1 {
+text-shadow: 0.5px 0.5px 0px black;
+}
+
+.l2 {
+	color: #80b7b3;
+	font-style: italic;
+}
+
+.l44 {
+	text-decoration: line-through;
+	opacity: 0.3;	
+}
+
+.lin {
+	margin-top: 65px;
+	margin-left: 400px;
+	margin-bottom: 140px;
+	width: 197px;
+	height: 43px;
+	background: #80b7b3 url('arrow.png') 152px 14px no-repeat;
+	box-shadow: 1px 1px 10px #80b7b3;
+	border-radius: 25px;
+	padding: 15px 0 0 30px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.href {
+	color: white;
+	letter-spacing: 3px;
+}
